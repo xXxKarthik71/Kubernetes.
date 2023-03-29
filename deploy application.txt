@@ -1,0 +1,5 @@
+To deploy the application to the Kubernetes cluster, apply the Kubernetes manifests using the following command:
+
+kubectl apply -f my-app-manifest.yaml
+
+Once the deployment is successful, you can access the application using the LoadBalancer or NodePort service URL, or through an ingress if configured.
