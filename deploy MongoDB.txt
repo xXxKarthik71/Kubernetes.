@@ -1,0 +1,3 @@
+To deploy MongoDB to the Kubernetes cluster, you can use a Helm chart. Here's an example command to install the MongoDB chart:
+
+helm install my-mongodb stable/mongodb
